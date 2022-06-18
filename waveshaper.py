@@ -15,10 +15,11 @@ def main():
     cv2.imshow('img', )#,90:130])
     cv2.waitKey()'''
     wincap = WindowCapture(capturerect=cords)
-    needle_a = cv2.imread(R'needle\a.png', cv2.IMREAD_GRAYSCALE)
-    needle_s = cv2.imread(R'needle\s.png', cv2.IMREAD_GRAYSCALE)
-    needle_w = cv2.imread(R'needle\w.png', cv2.IMREAD_GRAYSCALE)
-    needle_q = cv2.imread(R'needle\q.png', cv2.IMREAD_GRAYSCALE)
+    
+    needle_a = cv2.imread(R'needle\spr_triangle_down_2.png', cv2.IMREAD_GRAYSCALE)
+    needle_s = cv2.imread(R'needle\spr_square_down_4.png', cv2.IMREAD_GRAYSCALE)
+    needle_w = cv2.imread(R'needle\spr_square_up_3.png', cv2.IMREAD_GRAYSCALE)
+    needle_q = cv2.imread(R'needle\spr_triangle_up_1.png', cv2.IMREAD_GRAYSCALE)
     
 
     while(True):
